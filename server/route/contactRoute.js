@@ -19,7 +19,6 @@ router.post('/add', async (req, res) => {
 router.get('/all', async (req, res) => {
     try {
         const fetchedContactData = await Contact.find()
-        console.log(fetchedContactData)
         res.status(200).json(fetchedContactData)
     }
     catch (error) {

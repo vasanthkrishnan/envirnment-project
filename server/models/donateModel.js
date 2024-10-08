@@ -8,11 +8,11 @@ const donateSchema = new mongoose.Schema({
         unique: true,
     },
     noOfTrees: {
-        type: Number,
+        type: String,
         required: false,
     },
     rupees: {
-        type: Number,
+        type: String,
         required: false,
     }
 })
