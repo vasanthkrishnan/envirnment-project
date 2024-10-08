@@ -26,4 +26,20 @@ router.get('/all', async (req, res) => {
     }
 })
 
+
+router.delete('/del/:id', async (req, res) => {
+    try {
+        const id = req.params.id
+        const currentData = await Contact.findById(id)
+        if(!currentData) {
+            res.status(400).json({ message: "Project not found !"})
+        }
+        const deletedContact = await Contact.findByIdAndDelete(id)
+        console.log(deletedContact)
+        res.status(200).json({ message: "Contact Deleted !"})
+    } catch (error) {
+        res.status(400).json("Hell")
+    }
+})
+
 module.exports = router
