@@ -7,7 +7,7 @@ export const Donate = () => {
 
     <>
     <AdminNav />
-<div className=''> </div>    
+    <div className='h-full w-full bg-black'></div>
 </>
   )
 }
