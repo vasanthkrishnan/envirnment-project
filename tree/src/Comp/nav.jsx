@@ -66,13 +66,18 @@ const Nav = () => {
                 </div>
 
                 <ul className="flex flex-row gap-1 font-extrabold">
-                    <li className="hover:underline p-5 m-5">
+                    <li className="hover:underline p-5 my-5">
                         <a href="/">HOME</a>
                     </li>
-                    <li className="hover:underline p-5 m-5">
+                    <li className="hover:underline p-5 my-5 cursor-pointer" >
+                        <a href="#donform">
+                            DONATE
+                        </a>
+                    </li>
+                    <li className="hover:underline p-5 my-5">
                         <a href="/Contact">CONTACT</a>
                     </li>
-                    <li className="hover:underline p-5 m-5">
+                    <li className="hover:underline p-5 my-5">
                         <a href="/About">ABOUT US</a>
                     </li>
                 </ul>
