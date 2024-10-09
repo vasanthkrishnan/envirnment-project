@@ -40,7 +40,7 @@ const Home=()=>
             <>
             <Toaster position='top-right' richColors />
             <Nav/>
-            <div className="h-full w-full">
+            <div className="h-full w-full home">
             <div className="h-[30vh] w-full flex justify-center items-center">
     <div className="h-[20vh] w-[10vw] bg-zinc-200 text-black border-2 rounded-full font-bold border-black p-5 m-5 flex justify-center items-center text-xl text-center" >
           Achived!!<br/>

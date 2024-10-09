@@ -20,7 +20,10 @@ const Admin = () => {
       <div>
         <Toaster position='top-right' richColors />
         <AdminNav />
-        <Message />
+        <Routes>
+        <Route path="message" element={<Message />} />
+        <Route path="donate" element={<Donate />} />
+      </Routes>
       </div>
 
   );

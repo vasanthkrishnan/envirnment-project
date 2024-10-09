@@ -6,5 +6,6 @@ const addContactData = (contactData) => axios.post(`${Api}/contact/add`, contact
 const addDonateData = (donateData) => axios.post(`${Api}/donate/add`, donateData)
 const getContactData = () => axios.get(`${Api}/contact/all`)
 const deleteContactData = (id) => axios.delete(`${Api}/contact/del/${id}`)
+const getDonateData = () => axios.get(`${Api}/donate/get`)
 
-export { addContactData, addDonateData, getContactData, deleteContactData }
+export { addContactData, addDonateData, getContactData, deleteContactData, getDonateData }

@@ -56,7 +56,7 @@ const Contact = () => {
                         <br />
                         If you find our activities interesting, please help us to fulfill the goals of the One More Tree Foundation. Let's plant trees together, educate, and promote corporate social responsibility against climate change.
                         <div className="mt-10 m-10">
-                            <img className="h-[50vh] w-[100vw] " src={con} alt="Contact" />
+                            <img className="h-[50vh] w-[100vw] transform transition-transform duration-300 hover:scale-110 hover:translate-x-0 hover:translate-y-0 " src={con} alt="Contact" />
                         </div>
                     </div>
                     <div>
